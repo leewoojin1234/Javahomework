@@ -1,3 +1,5 @@
+package Number1_25;
+
 public class Number25 {
     public static void main(String[] args) {
         char a='A';

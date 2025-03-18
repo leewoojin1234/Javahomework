@@ -1,3 +1,5 @@
+package Number1_25;
+
 public class Number19 {
     public static void main(String[] args) {
         for (int i = 1; i <= 5; i++) {

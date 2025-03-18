@@ -1,11 +1,15 @@
+package Number1_25;
+
 import java.util.Scanner;
 
-public class Number13 {
+public class Number12 {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         int number = scanner.nextInt();
-        for (int i = number; i < number+5; i++) {
-            System.out.println(i);
+        int count = 0;
+        while (count < 5) {
+            count++;
+            System.out.println(number++);
         }
     }
 }

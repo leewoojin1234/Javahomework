@@ -1,3 +1,5 @@
+package Number1_25;
+
 import java.util.Scanner;
 
 public class Number20 {
