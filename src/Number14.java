@@ -10,7 +10,7 @@ public class Number14 {
             if (number % 2 == 1) {
                 number++;
             }
-            System.out.println(number);
+            System.out.print(number+" ");
             number += 2;
         }
     }
