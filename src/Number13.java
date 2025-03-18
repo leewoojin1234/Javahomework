@@ -1,13 +1,11 @@
 import java.util.Scanner;
 
-public class Number12 {
+public class Number13 {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         int number = scanner.nextInt();
-        int count = 0;
-        while (count < 5) {
-            count++;
-            System.out.println(number++);
+        for (int i = number; i < number+5; i++) {
+            System.out.println(i);
         }
     }
 }
